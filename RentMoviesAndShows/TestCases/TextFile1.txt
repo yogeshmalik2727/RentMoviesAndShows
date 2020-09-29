@@ -1,0 +1,28 @@
+﻿Rent Movies And Shows- TEST CASES:
+
+1. Test case for database connection
+	> Connection will be established on Form Load event and closes on application exit!
+	> SqlCommand get the connection object and then create its object and exxecute teh query.
+
+2.Test Case for Customer panel
+	> Add customer button show a new Form GUI, takes the iput values(like: name,address,phone) of customer 
+	  and save to database.
+
+	> to Edit any customer info there is an EDIT button in grid view in Edit Record column and it opens a form
+	  and there you edit the records and update them
+
+	> to Delete any customer, there is a DELETE button in grid view in Delete Record Column, 
+	  it will only delete the customer if he did not rent any movie.
+
+	  
+	  NOTE-1:
+	  Database name is "rentmovies" and its script file is the folder name "DatabaseScript".
+	  please  Execute the db-script in your MS SQL Server to run the App.
+	  
+
+	  NOTE-2:
+	  Launch Password/Code: admin
+
+	  Database name: .\SQLExpress  (or user "localhost" if did not worked)
+
+	  
